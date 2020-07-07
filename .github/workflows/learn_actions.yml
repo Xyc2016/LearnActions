@@ -13,5 +13,5 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - run: |
-          echo print('Learn actions') > learn_actions.py
+          echo print\('Learn actions'\) > learn_actions.py
           python learn_actions.py        
